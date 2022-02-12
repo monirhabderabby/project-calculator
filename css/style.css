@@ -1,0 +1,44 @@
+:root {
+	--dark-bg-color: rgb(35, 50, 62);
+	--light-bg-color: #e2e2e2;
+	--primary-color: #e48b2c;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.cal-container{
+    width: 40%;
+}
+
+button{
+    width: 100%;
+    padding: 20px 5px;
+    border: none;
+    border-radius: 10px;
+    background-color: transparent;
+    box-shadow: rgb(18, 35, 48) 0px 2px 3px 1px;
+}
+.cal-container{
+    box-shadow: rgb(18, 35, 48) 0px 2px 3px 1px;
+    border-radius: 20px;
+}
+.cs-bg-color{
+    background-color: var(--dark-bg-color)
+}
+.cs-number-color{
+    color: var(--light-bg-color);
+}
+.cs-sign-color{
+    color: var(--primary-color);
+}
+.equal-bg{
+    background-color: var(--primary-color);
+}
+input{
+    background-color: transparent;
+    border: none;
+    height: 80px;
+}
